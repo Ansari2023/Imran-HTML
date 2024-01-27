@@ -1,0 +1,40 @@
+body
+{background-color: rgb(103, 187, 187)}
+*{
+    list-style:circle;
+}
+.text {
+    background-color: burlywood;
+}
+#school {
+    background-color: brown;
+}
+.text span {
+    color: green;
+}
+.list>li {
+    color: #48eb08;
+}
+
+h1{
+    color: blue;
+}
+h2{
+    color: purple;
+}
+p{
+    color: greenyellow;
+}
+h3 {color: rgb(70, 45, 79);}
+h4 {color: goldenrod;}
+h5 {color: yellow;}
+h6 {color: orange;}
+ol{color: coral;}
+ul{color: coral;}
+dl{color: rgb(219, 223, 232);}
+figcaption{color: whitesmoke;}
+table{color: tomato;}
+table {
+    border-color: blue;}
+     td {color: aliceblue;}
+
