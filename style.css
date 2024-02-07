@@ -1,3 +1,4 @@
+@import url(index.css);
 body
 {background-color: rgb(103, 187, 187)}
 *{
@@ -15,26 +16,191 @@ body
 .list>li {
     color: #48eb08;
 }
-
-h1{
-    color: blue;
+center figure img {
+    width: 500px;
+    height: 500px;
 }
-h2{
+h1{
+    color: rgb(45, 45, 52);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 250%;
+}
+h2 {
     color: purple;
 }
-p{
-    color: greenyellow;
+p {
+    color: rgb(36, 36, 34);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    font-weight: 600;
+    font-weight: bold;
+    font-style: italic;
 }
 h3 {color: rgb(70, 45, 79);}
 h4 {color: goldenrod;}
 h5 {color: yellow;}
 h6 {color: orange;}
-ol{color: coral;}
-ul{color: coral;}
-dl{color: rgb(219, 223, 232);}
+ol {color: coral;}
+ul {color: coral;}
+dl {color: rgb(219, 223, 232);}
 figcaption{color: whitesmoke;}
-table{color: tomato;}
+table {color: tomato;}
 table {
     border-color: blue;}
-     td {color: aliceblue;}
+     td {color: rgb(16, 38, 56);}
 
+@font-face {
+    src: url(Font/);
+}
+p {
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    text-decoration: underline;
+}
+p {
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-align: center;
+}
+h1 span {
+    font-size: 80px
+}
+h1:hover {
+text-shadow: 10px 5px 5px rgb(238, 225, 151);
+}
+p:first-line {
+    color: blue;    
+}
+p:first-letter {
+    color: red;
+}
+input:focus{
+    background-color: crimson;
+}
+.box {
+    background-color: seagreen;
+    height: 200px;
+}
+.child {
+    background-color: green;
+    width: 50%;
+    height: 80%;
+}
+div img {
+    max-width: 800px;
+    min-width: 300px;
+}
+.content {
+    background-color: cadetblue;
+    min-width: 100px;
+    max-width: 800px;
+    min-height: 100px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+.border {
+    width: 400px;
+    border-color: #48eb08;
+    border-width: 10px;
+    border-style: double;
+    padding: 10px;
+    margin: 10px;
+    margin: 0px auto;
+    display: inline-block;
+}
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: deeppink;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 150px;
+}
+.style {
+    border-width: 5px;
+    empty-cells: hide;
+    border-spacing: 50px; 50px
+    padding: 10px; 10px; 10px; 10px;
+    word-spacing: 0px;
+    width: 700px;
+    height: 400px;
+    background-color: #c5750c;
+    font-size: xx-large;
+}
+h1 {
+    cursor: not-allowed;
+}
+.box1 {
+    width: 300px;
+    height: 300px;
+    background-color: chocolate;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+.box2 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(23, 23, 24);
+}
+.main {
+    width: 500px;
+    height: 500px;
+    border: 5px solid greenyellow;
+    position: relative;
+}
+.level input {
+    background-color: yellow;
+    border: 2px solid black;
+    position: absolute;
+    padding-left: 60px;
+}
+img {
+    width: 20px;
+    position: relative;
+    left: 10px;
+    top: 1px;
+}
+.whatsapp {
+    width: 50px;
+    position: fixed;
+    
+}
+.box3 {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    z-index: -1;
+}
+.box4 {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: #48eb08;
+}
+.box6 {
+    width: 50%;
+    height: 100px;
+    background-color: brown;
+    float: right;
+    clear: both;
+}
+body {
+    background-image: url(Images/cloud.jpg);
+}
+.box7 {
+    width: 100%;
+    height: 400px;
+    background-color: darkgray;
+}
+@media scren and (max-width:500px;) {
+.box7 {
+    background-color: green;
+}
+}
