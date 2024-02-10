@@ -199,7 +199,7 @@ body {
     height: 400px;
     background-color: darkgray;
 }
-@media scren and (max-width:500px;) {
+@media only scren and (max-width:400px) {
 .box7 {
     background-color: green;
 }
